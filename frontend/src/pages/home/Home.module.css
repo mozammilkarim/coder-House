@@ -1,0 +1,12 @@
+.invite,a{
+    color: rgb(40, 127, 220);
+}
+a{
+    font-weight: bold;
+    padding-left: 0.8rem;
+}
+
+.paragraph{
+    padding: 1.6rem 0;
+    color: rgb(173, 158, 158);
+}

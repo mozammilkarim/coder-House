@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+/* for image to adjust inside the container */
+img{
+    max-width: 100%;
+    height: auto;
+}
+body{
+    background: #121212;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,23 @@
+.button{
+    min-width: 60%;
+    border-radius: 20px;
+    border-width: 0;
+    background:  rgb(3, 98, 200) ;
+    color: #fff;
+    padding: 0.8rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:1rem auto;
+    transition:  all 0.3s ease;
+}
+.button:hover{
+    background:  rgb(2, 70, 143) ;
+}
+/* .logo{
+    position: relative;
+    left: 10rem;
+    padding-left: 2rem !important;
+} */
