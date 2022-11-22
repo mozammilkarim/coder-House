@@ -10,7 +10,7 @@ function Home() {
 
   const startRegistration=()=>{
     console.warn("hi")
-    navigate("/register")
+    navigate("/authenticate")
   }
 
   return (

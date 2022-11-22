@@ -1,0 +1,8 @@
+# rest client extension is not working
+POST http://localhost:3001/api/send-otp HTTP/1.1
+
+Content-Type= application/json
+
+{
+    "phone":"7827141330"
+}

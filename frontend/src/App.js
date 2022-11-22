@@ -3,7 +3,6 @@ import Home from "./pages/home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from './components/shared/navigation/Navigation';
 import Register from './pages/register/Register';
-import Login from './pages/login/Login';
 import StepAvatar from './pages/steps/StepAvatar/StepAvatar';
 import ProtectedRoute from './components/protectedRoute/ProtectedRoute';
 import StepFullName from './pages/steps/StepFullName/StepFullName';
@@ -23,8 +22,7 @@ function App() {
       <Routes>
         {/* guest area */}
         <Route path='/' element={<Home />} />
-        <Route path='/register' element={<Register />} />
-        <Route path='/login' element={<Login />} />
+        <Route path='/authenticate' element={<Register />} />
         <Route path='*' element={<NotFound />} />
 
         <Route path="/" element={<ProtectedRoute isAuthenticated={isAuthenticated} />} >
